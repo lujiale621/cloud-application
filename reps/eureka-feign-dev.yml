@@ -1,6 +1,10 @@
 spring:
   application:
     name: cloud-eureka-feign
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
 
 server:
   port: 8765
