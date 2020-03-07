@@ -4,13 +4,13 @@ spring:
   boot:
     admin:
       client:
-        url: http://localhost:8084
+        url: http://101.132.67.220:8084
 server:
   port: 8762
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: 101.132.67.220
   client:
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:8761/eureka/
