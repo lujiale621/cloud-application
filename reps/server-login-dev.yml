@@ -5,6 +5,7 @@ spring:
     admin:
       client:
         url: http://101.132.67.220:8084
+
   datasource:
     username: root
     password: 123456
