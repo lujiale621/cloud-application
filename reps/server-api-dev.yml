@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: cloud-server-api
+  boot:
+    admin:
+      client:
+        url: http://101.132.67.220:8084
+server:
+  port: 8766
+
+eureka:
+  instance:
+    hostname: 101.132.67.220
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
